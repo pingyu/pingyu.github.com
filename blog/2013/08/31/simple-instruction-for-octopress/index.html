@@ -5,13 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Blog Archive - Snowwwolf's Blog</title>
+  <title>Simple Instruction for Octopress - Snowwwolf's Blog</title>
   <meta name="author" content="Snowwwolf">
 
   
-  <meta name="description" content=" Blog Archive 2013 Simple Instruction for Octopress
-Aug 31 2013 First Post
-Aug 31 2013 Recent Posts Simple Instruction for Octopress First Post ">
+  <meta name="description" content="referenced from official docs of octopress http://octopress.org/docs/blogging/ New Post cd /path/to/octopress
+rake new_post['title']
+&lt;edit /path/ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +20,7 @@ Aug 31 2013 Recent Posts Simple Instruction for Octopress First Post ">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://blog.snowwwolf.com/blog/archives">
+  <link rel="canonical" href="http://blog.snowwwolf.com/blog/2013/08/31/simple-instruction-for-octopress">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Snowwwolf's Blog" type="application/atom+xml">
@@ -78,41 +78,99 @@ Aug 31 2013 Recent Posts Simple Instruction for Octopress First Post ">
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Blog Archive</h1>
+    
+      <h1 class="entry-title">Simple Instruction for Octopress</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-08-31T23:41:00+08:00" pubdate data-updated="true">Aug 31<span>st</span>, 2013</time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives">
 
 
+<div class="entry-content"><p>referenced from official docs of octopress <a href="http://octopress.org/docs/blogging/">http://octopress.org/docs/blogging/</a></p>
 
-  
-  <h2>2013</h2>
+<h3>New Post</h3>
 
-<article>
-  
-<h1><a href="/blog/2013/08/31/simple-instruction-for-octopress/">Simple Instruction for Octopress</a></h1>
-<time datetime="2013-08-31T23:41:00+08:00" pubdate><span class='month'>Aug</span> <span class='day'>31</span> <span class='year'>2013</span></time>
+<pre><code>cd /path/to/octopress
+rake new_post['title']
+&lt;edit /path/to/octopress/source/_post/YYYY-mm-dd-title.markdown&gt;
+rake generate
+(if want to preview:
+    rake watch
+    rake preview (or use [pow](http://pow.cx/))
+)
+rake deploy
+</code></pre>
 
+<p>ps. Recommend <a href="http://mouapp.com/">Mou</a> as markdown editor for OSX</p>
 
-</article>
+<h3>Modify Anything Else</h3>
 
+<p>e.g. _config.yaml modified</p>
 
-
-<article>
-  
-<h1><a href="/blog/2013/08/31/first-post/">First Post</a></h1>
-<time datetime="2013-08-31T11:00:00+08:00" pubdate><span class='month'>Aug</span> <span class='day'>31</span> <span class='year'>2013</span></time>
-
-
-</article>
-
+<pre><code>rake generate
+rake deploy
+</code></pre>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Snowwwolf</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-08-31T23:41:00+08:00" pubdate data-updated="true">Aug 31<span>st</span>, 2013</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/08/31/first-post/" title="Previous Post: First Post">&laquo; First Post</a>
+      
+      
+    </p>
+  </footer>
 </article>
 
 </div>

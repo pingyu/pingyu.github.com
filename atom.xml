@@ -4,7 +4,7 @@
   <title><![CDATA[Snowwwolf's Blog]]></title>
   <link href="http://blog.snowwwolf.com/atom.xml" rel="self"/>
   <link href="http://blog.snowwwolf.com/"/>
-  <updated>2013-08-31T22:46:51+08:00</updated>
+  <updated>2013-08-31T23:55:10+08:00</updated>
   <id>http://blog.snowwwolf.com/</id>
   <author>
     <name><![CDATA[Snowwwolf]]></name>
@@ -12,6 +12,38 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Simple Instruction for Octopress]]></title>
+    <link href="http://blog.snowwwolf.com/blog/2013/08/31/simple-instruction-for-octopress/"/>
+    <updated>2013-08-31T23:41:00+08:00</updated>
+    <id>http://blog.snowwwolf.com/blog/2013/08/31/simple-instruction-for-octopress</id>
+    <content type="html"><![CDATA[<p>referenced from official docs of octopress <a href="http://octopress.org/docs/blogging/">http://octopress.org/docs/blogging/</a></p>
+
+<h3>New Post</h3>
+
+<pre><code>cd /path/to/octopress
+rake new_post['title']
+&lt;edit /path/to/octopress/source/_post/YYYY-mm-dd-title.markdown&gt;
+rake generate
+(if want to preview:
+    rake watch
+    rake preview (or use [pow](http://pow.cx/))
+)
+rake deploy
+</code></pre>
+
+<p>ps. Recommend <a href="http://mouapp.com/">Mou</a> as markdown editor for OSX</p>
+
+<h3>Modify Anything Else</h3>
+
+<p>e.g. _config.yaml modified</p>
+
+<pre><code>rake generate
+rake deploy
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[First Post]]></title>

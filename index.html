@@ -9,7 +9,9 @@
   <meta name="author" content="Snowwwolf">
 
   
-  <meta name="description" content="这是部署Octopress后的first post 用Octopress纯粹为了好玩，也因为Octopress号称是&#8221;A blogging framework for hackers&#8221; 说不定能激发继续写blog的热情 过去写的blog，请移步http://blog. &hellip;">
+  <meta name="description" content="referenced from official docs of octopress http://octopress.org/docs/blogging/ New Post cd /path/to/octopress
+rake new_post['title']
+&lt;edit /path/ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -83,6 +85,65 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2013/08/31/simple-instruction-for-octopress/">Simple Instruction for Octopress</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-08-31T23:41:00+08:00" pubdate data-updated="true">Aug 31<span>st</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>referenced from official docs of octopress <a href="http://octopress.org/docs/blogging/">http://octopress.org/docs/blogging/</a></p>
+
+<h3>New Post</h3>
+
+<pre><code>cd /path/to/octopress
+rake new_post['title']
+&lt;edit /path/to/octopress/source/_post/YYYY-mm-dd-title.markdown&gt;
+rake generate
+(if want to preview:
+    rake watch
+    rake preview (or use [pow](http://pow.cx/))
+)
+rake deploy
+</code></pre>
+
+<p>ps. Recommend <a href="http://mouapp.com/">Mou</a> as markdown editor for OSX</p>
+
+<h3>Modify Anything Else</h3>
+
+<p>e.g. _config.yaml modified</p>
+
+<pre><code>rake generate
+rake deploy
+</code></pre>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2013/08/31/first-post/">First Post</a></h1>
     
     
@@ -131,6 +192,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/08/31/simple-instruction-for-octopress/">Simple Instruction for Octopress</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2013/08/31/first-post/">First Post</a>
