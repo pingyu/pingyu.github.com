@@ -4,7 +4,7 @@
   <title><![CDATA[Snowwwolf's Blog]]></title>
   <link href="http://blog.snowwwolf.com/atom.xml" rel="self"/>
   <link href="http://blog.snowwwolf.com/"/>
-  <updated>2013-08-31T17:15:55+08:00</updated>
+  <updated>2013-08-31T21:07:16+08:00</updated>
   <id>http://blog.snowwwolf.com/</id>
   <author>
     <name><![CDATA[Snowwwolf]]></name>
@@ -18,7 +18,13 @@
     <link href="http://blog.snowwwolf.com/blog/2013/08/31/first-post/"/>
     <updated>2013-08-31T11:00:00+08:00</updated>
     <id>http://blog.snowwwolf.com/blog/2013/08/31/first-post</id>
-    <content type="html"><![CDATA[<p>First post, just for test</p>
+    <content type="html"><![CDATA[<p>这是部署Octopress后的first post</p>
+
+<p>用Octopress纯粹为了好玩，也因为Octopress号称是&#8221;A blogging framework for hackers&#8221;</p>
+
+<p>说不定能激发继续写blog的热情</p>
+
+<p>过去写的blog，请移步<a href="http://blog.csdn.net/shuiyu">http://blog.csdn.net/shuiyu</a></p>
 ]]></content>
   </entry>
   
