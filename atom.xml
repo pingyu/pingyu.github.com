@@ -4,7 +4,7 @@
   <title><![CDATA[Snowwwolf's Blog]]></title>
   <link href="http://blog.snowwwolf.com/atom.xml" rel="self"/>
   <link href="http://blog.snowwwolf.com/"/>
-  <updated>2013-09-05T22:23:44+08:00</updated>
+  <updated>2013-09-05T22:32:57+08:00</updated>
   <id>http://blog.snowwwolf.com/</id>
   <author>
     <name><![CDATA[Snowwwolf]]></name>
@@ -79,6 +79,14 @@ rake deploy
 <pre><code>rake generate
 rake deploy
 </code></pre>
+
+<h3>Git Push</h3>
+
+<p>git commit add …</p>
+
+<p>git commit -m&#8217;…&#8217;</p>
+
+<p>git push origin source</p>
 ]]></content>
   </entry>
   
