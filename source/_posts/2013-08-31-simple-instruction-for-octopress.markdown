@@ -26,3 +26,10 @@ e.g. _config.yaml modified
 
 	rake generate
 	rake deploy
+
+### Git Push ###
+git commit add …
+
+git commit -m'…'
+
+git push origin source
