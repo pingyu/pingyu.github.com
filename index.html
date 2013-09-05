@@ -9,9 +9,7 @@
   <meta name="author" content="Snowwwolf">
 
   
-  <meta name="description" content="referenced from official docs of octopress http://octopress.org/docs/blogging/ New Post cd /path/to/octopress
-rake new_post['title']
-&lt;edit /path/ &hellip;">
+  <meta name="description" content="To describe the setup process on my Mac OS 10.8. Referenced from http://octopress.org/docs/setup/ Download Octopress git clone git://github.com/ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -79,6 +77,70 @@ rake new_post['title']
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/09/05/setup-octopress-on-my-macos/">Setup Octopress on My MacOS</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-09-05T21:41:00+08:00" pubdate data-updated="true">Sep 5<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>To describe the setup process on my Mac OS 10.8.</p>
+
+<p>Referenced from <a href="http://octopress.org/docs/setup/">http://octopress.org/docs/setup/</a></p>
+
+<ol>
+<li><p>Download Octopress</p>
+
+<blockquote><p>git clone git://github.com/imathis/octopress.git octopress</p></blockquote></li>
+<li><p>Install ruby 1.9.3. (Note that only ruby 1.9.3, NOT 1.9.3 or above)</p>
+
+<blockquote><p>brew install rbenv</p>
+
+<p>brew install ruby-build</p>
+
+<p>rbenv install 1.9.3-p0</p>
+
+<p>rbenv rehash</p></blockquote></li>
+<li><p>Modify content of .ruby-version file in octopress to &ldquo;1.9.3-p0&rdquo;. Run &ldquo;ruby &mdash;version&rdquo; should report &ldquo;Ruby 1.9.3-p0&rdquo;</p></li>
+<li><p>Final setup commands</p>
+
+<blockquote><p>gem install bundler</p>
+
+<p>rbenv rehash</p>
+
+<p>bundle install</p>
+
+<p>rake install</p></blockquote></li>
+</ol>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -192,6 +254,10 @@ rake deploy
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/09/05/setup-octopress-on-my-macos/">Setup Octopress on My MacOS</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2013/08/31/simple-instruction-for-octopress/">Simple Instruction for Octopress</a>
