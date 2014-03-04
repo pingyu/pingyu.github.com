@@ -1,5 +1,9 @@
 GEM
+<<<<<<< HEAD
   remote: http://ruby.taobao.org/
+=======
+  remote: https://rubygems.org/
+>>>>>>> b86880352b421ad8884355ba2e2dea9b92c65996
   specs:
     RedCloth (4.2.9)
     chunky_png (1.2.5)
