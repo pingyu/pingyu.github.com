@@ -4,7 +4,7 @@
   <title><![CDATA[Snowwwolf's Blog]]></title>
   <link href="http://blog.snowwwolf.com/atom.xml" rel="self"/>
   <link href="http://blog.snowwwolf.com/"/>
-  <updated>2014-03-04T16:39:22+08:00</updated>
+  <updated>2014-03-04T16:48:46+08:00</updated>
   <id>http://blog.snowwwolf.com/</id>
   <author>
     <name><![CDATA[Snowwwolf]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Python Tips]]></title>
+    <link href="http://blog.snowwwolf.com/blog/2014/03/04/python-tips/"/>
+    <updated>2014-03-04T16:44:44+08:00</updated>
+    <id>http://blog.snowwwolf.com/blog/2014/03/04/python-tips</id>
+    <content type="html"><![CDATA[<p>To be continue&hellip;</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Setup Octopress on My MacOS]]></title>
