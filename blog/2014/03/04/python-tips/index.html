@@ -148,6 +148,17 @@
 &gt;&gt;&gt; reduce(add,range(11))        #1+2+3+...+10
 55
 </code></pre>
+
+<h2>Conditional Expression</h2>
+
+<p>Conditional Expression:</p>
+
+<pre><code>x = true_value if condition else false_value
+</code></pre>
+
+<p>Python缺少三元 <strong> condition ? true_value : false_value </strong> 运算符, 所以当需要实现这种逻辑的时候, 之前喜欢用 <strong> condition and true_value or false_value </strong> 的方式. 但是这种方式很容易出bug, 比如 condition ? 0 : 1, 就会发现无论condition, 总是返回1. (虽然可以用 <strong> condition ? [0]: [1])[0] </strong> 解决, 但是太丑了)</p>
+
+<p><a href="http://docs.python.org/2.5/whatsnew/pep-308.html">PEP308</a> 建议通过这种Conditional Expression的方式实现</p>
 </div>
 
 
