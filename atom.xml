@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Snowwwolf's Blog]]></title>
+  <link href="http://blog.snowwwolf.com/atom.xml" rel="self"/>
+  <link href="http://blog.snowwwolf.com/"/>
+  <updated>2014-03-04T16:48:46+08:00</updated>
+  <id>http://blog.snowwwolf.com/</id>
+  <author>
+    <name><![CDATA[Snowwwolf]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Python Tips]]></title>
+    <link href="http://blog.snowwwolf.com/blog/2014/03/04/python-tips/"/>
+    <updated>2014-03-04T16:44:44+08:00</updated>
+    <id>http://blog.snowwwolf.com/blog/2014/03/04/python-tips</id>
+    <content type="html"><![CDATA[<p>To be continue&hellip;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Setup Octopress on My MacOS]]></title>
+    <link href="http://blog.snowwwolf.com/blog/2013/09/05/setup-octopress-on-my-macos/"/>
+    <updated>2013-09-05T21:41:00+08:00</updated>
+    <id>http://blog.snowwwolf.com/blog/2013/09/05/setup-octopress-on-my-macos</id>
+    <content type="html"><![CDATA[<p>To describe the setup process on my Mac OS 10.8.</p>
+
+<p>Referenced from <a href="http://octopress.org/docs/setup/">http://octopress.org/docs/setup/</a></p>
+
+<ol>
+<li><p>Download Octopress</p>
+
+<blockquote><p>git clone git://github.com/imathis/octopress.git octopress</p></blockquote></li>
+<li><p>Install ruby 1.9.3. (Note that only ruby 1.9.3, NOT 1.9.3 or above)</p>
+
+<blockquote><p>brew install rbenv</p>
+
+<p>brew install ruby-build</p>
+
+<p>rbenv install 1.9.3-p0</p>
+
+<p>rbenv rehash</p></blockquote></li>
+<li><p>Modify content of .ruby-version file in octopress to &ldquo;1.9.3-p0&rdquo;. Run &ldquo;ruby &mdash;version&rdquo; should report &ldquo;Ruby 1.9.3-p0&rdquo;</p></li>
+<li><p>Final setup commands</p>
+
+<blockquote><p>gem install bundler</p>
+
+<p>rbenv rehash</p>
+
+<p>bundle install</p>
+
+<p>rake install</p></blockquote></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Simple Instruction for Octopress]]></title>
+    <link href="http://blog.snowwwolf.com/blog/2013/08/31/simple-instruction-for-octopress/"/>
+    <updated>2013-08-31T23:41:00+08:00</updated>
+    <id>http://blog.snowwwolf.com/blog/2013/08/31/simple-instruction-for-octopress</id>
+    <content type="html"><![CDATA[<p>referenced from official docs of octopress <a href="http://octopress.org/docs/blogging/">http://octopress.org/docs/blogging/</a></p>
+
+<h3>New Post</h3>
+
+<pre><code>cd /path/to/octopress
+rake new_post['title']
+&lt;edit /path/to/octopress/source/_post/YYYY-mm-dd-title.markdown&gt;
+rake generate
+(if want to preview:
+    rake watch
+    rake preview (or use [pow](http://pow.cx/))
+)
+rake deploy
+</code></pre>
+
+<p>ps. Recommend <a href="http://mouapp.com/">Mou</a> as markdown editor for OSX</p>
+
+<h3>Modify Anything Else</h3>
+
+<p>e.g. _config.yaml modified</p>
+
+<pre><code>rake generate
+rake deploy
+</code></pre>
+
+<h3>Git Push</h3>
+
+<p>git commit add …</p>
+
+<p>git commit -m&#8217;…&#8217;</p>
+
+<p>git push origin source</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[First Post]]></title>
+    <link href="http://blog.snowwwolf.com/blog/2013/08/31/first-post/"/>
+    <updated>2013-08-31T11:00:00+08:00</updated>
+    <id>http://blog.snowwwolf.com/blog/2013/08/31/first-post</id>
+    <content type="html"><![CDATA[<p>这是部署Octopress后的first post</p>
+
+<p>用Octopress纯粹为了好玩，也因为Octopress号称是&#8221;A blogging framework for hackers&#8221;</p>
+
+<p>说不定能激发继续写blog的热情</p>
+
+<p>过去写的blog，请移步<a href="http://blog.csdn.net/shuiyu">http://blog.csdn.net/shuiyu</a></p>
+]]></content>
+  </entry>
+  
+</feed>
